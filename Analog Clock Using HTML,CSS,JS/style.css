@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+#mainContainer{
+    height: 50vh;
+    width: 50vh;
+    background:url(./clock.png) no-repeat;
+    margin: auto;
+    margin-top: 10vh;
+    background-size: 100%;
+    position: relative;
+}
+
+#hourid,#minuteid,#secid{
+    position:absolute;
+    border-radius:8px;
+    background: black;
+    transform-origin: bottom;
+}
+
+#hourid{
+    width: 2.8%;
+    left: 48.2%;
+    top: 16%;
+    height: 35%;
+}
+
+#minuteid{
+    width: 2%;
+    left: 48.2%;
+    top: 15.7%;
+    height: 35%;
+}
+
+#secid{
+    background: red;
+    width: 1.2%;
+    height: 40%;
+    left: 49.2%;
+    top: 10%;
+}
